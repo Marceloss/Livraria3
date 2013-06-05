@@ -11,6 +11,13 @@ public class Livro {
 		this.setAutor(a);
 		this.setDescricao(d);
 	}
+	
+	public Livro(String n, String a, String d, String c, int num) {
+		this.setNome(n);
+		this.setAutor(a);
+		this.setDescricao(d);
+		
+	}
 
 	public String getNome() {
 		return nome;

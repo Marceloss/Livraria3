@@ -23,9 +23,19 @@
 		<label for="descricao1">Descrição: </label>
 		<br/>
 		<textarea id="descricao1" name="descricao1"></textarea>
+		<br>
+		<label for="Colecao">Coleção: </label>
+		<input type="text" id="Colecao" name="Colecao" />
+		<br>
+		<label for="Volume">Volume: </label>
+		<input type="text" id="Volume" name="Volume" />
+		<br/>
+		
+		<br/>
+		
 	</fieldset>
 	
-	<fieldset>
+	<!-- <fieldset>
 	<legend>Livro 2</legend>
 		<label for="titulo2">Título: </label>
 		<input type="text" id="titulo2" name="titulo2" />
@@ -53,7 +63,7 @@
 		<label for="descricao3">Descrição: </label>
 		<br/>
 		<textarea id="descricao3" name="descricao3"></textarea>
-	</fieldset>
+	</fieldset> -->
 	
 	
 	<input type="submit" value="Enviar" />
